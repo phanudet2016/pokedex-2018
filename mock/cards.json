@@ -176,7 +176,9 @@
       "text": [
         "Choose up to 2 in any combination of Pokémon Tool cards and Stadium cards in play (both yours and your opponent's) and discard them."
       ],
-      "type": "Normal"
+      "type": "Normal",
+      "attacks": [],
+      "weaknesses": []
     },
     {
       "id": "pop9-17",

@@ -1,0 +1,140 @@
+.box-container {
+  width: 1024px;
+  height: 768px;
+  background-color: #fff;
+  overflow: scroll;
+}
+
+.Name {
+  font-weight: lighter;
+}
+
+.card {
+  display: inline-block;
+  width: 500px;
+  background-color: #f3f4f7;
+}
+
+.card-modal {
+  display: inline-block;
+  width: 800px;
+  background-color: #f3f4f7
+}
+
+.block {  
+  display: inline-block;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.text {
+  padding-left: 20px;
+}
+
+.styleText {
+  background-color: #FFF;
+  padding-top: -200px;
+}
+
+.footer {
+  position:absolute;
+  left:0;
+  bottom:0;
+  right:0;
+  background-color: #ec5656;
+  color: #fff;
+  height: 55px;
+  font-size: 35px;
+  text-align: center;
+  box-shadow: #d9333387;
+}
+
+.button {
+  background-color: #ec5656;
+  border: none;
+  color: white;
+  padding: 0px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 30px;
+  font-family: Atma;
+}
+
+.my-progress-bar {
+  background: #ccc;
+  border-radius: 50px;
+
+  padding: 0px;
+  margin: 0 auto;
+}
+
+.progress-bar {
+  position: relative;
+  height: 22px;
+  width: 180px;
+  border-radius: 50px;
+  background: #e4e4e4;
+  float: right;
+  box-shadow: #d4d4d4;
+}
+
+.filler {
+  background: #f3701a;
+  height: 100%;
+  border-radius: inherit;
+  transition: width .2s ease-in;
+}
+
+.search {
+  width: 100%;
+  height: 50px;
+  border: 2px solid #e6e6e6;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 20px;
+  background-color: white;
+  background-image: url('./search.png');
+  background-size: 30px 30px;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 0px;
+  height: 34px;
+  font-family: Atma;
+}
+  
+.add {
+  color: #dc7777;
+  padding-right: 20px;
+  font-size: 20px;
+  font-family: Atma;
+  border: none;
+  background: transparent;
+}
+.add-1 {
+  color: #dc7777;
+  padding-right: 7px;
+  font-size: 20px;
+  font-family: Atma;
+  border: none;
+  background: transparent;
+}
+.addLeft {
+  float: right;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fff; 
+  border-radius: 10px;
+}
+
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(113,113,107); 
+}
